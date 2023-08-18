@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    scroll-behavior: smooth;
+}
+#header{
+    overflow: hidden;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)),url(images/back1.jpeg);
+    background-position: right;
+    background-size: contain;
+    position: relative;
+}
+.para{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: -15px;
+    bottom: 70px;
+    text-decoration: none;
+    font-family: monospace;
+}
+/*    background: rgb(0, 0, 99);
+*/
+nav{
+    display: flex;
+    padding: 2% 12%;
+    justify-content: space-between;
+    align-items: center;
+    background:rgba(0, 253, 253, 0.29);
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 10%;
+
+  text-decoration: none;
+}
+nav img{
+    width: 120px;
+    border-radius: 80px;
+    margin-top: 35px;
+
+  text-decoration: none;
+}
+.nav-links{
+    flex:3;
+    text-align: right;
+    font-size: 50px;
+    
+    font-family: monospace;
+   text-decoration: none;
+    
+}
+.log{
+    position: relative;
+    right: 190px;
+    bottom: 10px;
+}
+.logo{
+
+  text-decoration: none;
+}
+.h{
+    font-size: 30px;
+
+  text-decoration: none;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+  text-decoration: none;
+}
+.nav-links ul li a{
+    color:rgb(198, 253, 253);
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links ul li:hover{
+    background: rgb(83, 177, 206);
+    color: white;
+    border-radius: 60px;
+   
+}
+.nav-links ul li a:hover{
+    color: white;
+}
+
+.text{
+    color: lightcyan;
+    font-size: 80px;
+    position: relative;
+   
+    left: 50px;
+    font-family: monospace;
+}
+
+.quote{
+    color:rgb(198, 253, 253);
+    font-size: 30px;
+    position: relative;
+    left: 150px;
+    font-family: unset;
+}
+
+.button{
+    background-color: rgb(147, 203, 203);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 450px;
+}
+.button:hover {
+    background-color: #2980b9;
+  }
+
+/* .......................about css file..................... */
+
+#header1{
+    overflow: hidden;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)),url(images/back2.webp);
+    background-position: right;
+    background-size: contain;
+    position: relative;
+}
+
+.ab{
+    color: lightskyblue;
+    font-size: 50px;
+    margin-left: 300px;
+    margin-top: 60px;
+    font-family: monospace;
+}
+
+.ab2{
+    color: rgb(48, 133, 186);
+    font-size: 20px;
+    font-family: monospace;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.ab3{
+    color: lightskyblue;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.i{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    left: 200px;
+
+    bottom: 30px;
+}
+.i1{
+    width: 80px;
+    height: 50px;
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+}
+
+/*.............................. blog css file ...............................*/
+#header2{
+   
+    content: "";
+    position: absolute;
+    background: url("images/extra1.jpeg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+   
+}
+.bl{
+    color: rgb(14, 44, 63);
+    font-size: 40px;
+    margin-left: 590px;
+    margin-top: 30px;
+}
+
+
+div.gallery {
+    border: 3px solid rgb(80, 140, 183);
+    border-radius: 50px;
+  }
+  
+  div.gallery:hover {
+    border: 3px solid rgb(21, 70, 100);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;/*color: rgb(20, 84, 123);*/
+    font-size: 30px;
+  }
+  div.desc1 {
+    padding: 15px;
+    text-align: center;
+    color: white;/*color: rgb(45, 96, 128);*/
+    font-size: 30px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+  }
+  /*...............................services css file..............................*/
+
+#header3{
+    overflow: hidden;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgba(3, 99, 99, 0.428);
+    background-position: right;
+    background-size: contain;
+    position: relative;
+   
+}
+
+div.gallery1 {
+    border: px solid black;
+    
+  }
+  
+  div.gallery1:hover {
+    border: 2px solid rgb(10, 99, 155);
+    border-radius: 50px;
+  }
+  
+  div.gallery1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+  }
+  
+  div.desc2 {
+    padding: 15px;
+    text-align: center;
+    color: rgb(62, 85, 100);
+    font-size: 20px;
+  }
+  /*div.desc2 {
+    padding: 15px;
+    text-align: center;
+    color: rgb(214, 234, 246);
+    font-size: 30px;
+  }*/
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive1 {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+  }
+
+  .bl1{
+    color: rgb(19, 85, 126);
+    font-size: 50px;
+    margin-left: 590px;
+    margin-top: 60px;
+    font-family: monospace;
+}
+
+/*...............................contact css file..............................*/
+
+
+#header4{
+   
+    content: "";
+    position: absolute;
+    background: url("images/contact.jpeg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+.bl2{
+    color: rgb(162, 195, 215);
+    font-size: 50px;
+    margin-left: 560px;
+    margin-top: 60px;
+    font-family: monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 60px;
+    background-color: transparent;
+    color: white;
+    margin-left: 30px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+    color: WHITE;
+
+}
+#subject{
+    color: white;
+}
+input {
+    width: 300px;
+    height: 45px;
+    border: none;
+    border-bottom: 3px solid black;
+    outline: none;
+    margin-top: 10px;
+    background: transparent;
+    color:white;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+
+.button1{
+    background-color: rgb(147, 203, 203);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 660px;
+}
+
+.button1:hover {
+    background-color: #2980b9;
+  }
+
+
+  .logo{
+    text-align: center;
+    font-size: x-large;
+    color: azure;
+    margin-top: 20px;
+}
+
+.pro{
+    text-align: center;
+    color: rgb(147, 203, 203);
+    font-size: 30px;
+    margin-top: 20px;
+    
+}
+
+.pro1{
+    color: gray;
+    font-size: 1.3rem;
+}
+
+
+
+
+
